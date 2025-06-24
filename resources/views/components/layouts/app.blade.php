@@ -44,7 +44,7 @@
             @include('components.layouts.sidebar')
 
             <!-- Main Content -->
-            @livewire('admin')
+            @yield('content')
             @include('components.layouts.footer')
         </div>
     </div>

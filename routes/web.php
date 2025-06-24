@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\Admin;
+use App\Livewire\Pengguna;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', Admin::class);
+Route::get('/admin', Admin::class);
+Route::get('/pengguna', Pengguna::class);
+
+Route::get('/', function () {
+    return view('admin');
+});
+
+Route::get('/user', function () {
+    return view('pengguna');
+});
