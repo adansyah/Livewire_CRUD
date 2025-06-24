@@ -9,7 +9,8 @@
                 <a href="/l">SN</a>
             </div>
             <ul class="sidebar-menu">
-                <li class=active><a class="nav-link" href="/">Invoice</a></li>
+                <li class="active"><a class="nav-link" href="/">Invoice</a></li>
+                <li class=><a class="nav-link" href="/user">User</a></li>
         </aside>
     </div>
 </div>
